@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  color: aliceblue;
+  background-color: black
+  text-align: center
+}
+.person{
+  background-image: url(images/background1.png);
+
+}
+.name{
+  text-transform: uppercase;
+}
+.container{
+  max-width: 75%;
+  margin: 0 auto;
+}
+a.button{
+  min-width: 100px;
+    /*Минимальная ширина кнопки*/
+    text-align: center;
+    /*выравнивание текста по центру*/
+    display: inline-block;
+    /* дл размещения кнопки с новой строки от ширины экрана*/
+    padding: 50px;
+    background-color: brown text-decoration: none;
+    border-radius: 6px;
+    color: white
+    margin: 12px 0;
+  
+}
+form{
+  max-width: 40%;
+  margin-inline-end: ;
+}
